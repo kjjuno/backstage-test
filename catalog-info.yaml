@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testing
+  description: testing
+  annotations: 
+    github.com/project-slug: kjjuno/backstage-test
+    backstage.io/source-ref: "https://github.com/kjjuno/backstage-test"
+    backstage.io/techdocs-ref: url:https://github.com/kjjuno/backstage-test
+    backstage.io/github-actions-id: https://github.com/kjjuno/backstage-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: me
